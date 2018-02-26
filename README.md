@@ -12,7 +12,7 @@ A new ORM for DNN that supports both DNN Current (NET Framework) and DNN vNext (
 * CI NuGet Feed: [https://ci.appveyor.com/nuget/DnnConnector](https://ci.appveyor.com/nuget/DnnConnector)
     
 ### Platform Support
-CircleButtonMenu is available for use in the following supported platforms.
+DnnConnector is available for use in the following supported platforms.
 
 | Platform         | Supported | Version     |
 |------------------|-----------|-------------|
