@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>DnnConnector</id>
+    <version>$version$</version>
+    <title>A Data Access Layer for working with DNN modules in DNN Current and DNN vNext</title>
+    <authors>Andrew Hoefling</authors>
+    <owners>Andrew Hoefling</owners>
+    <licenseUrl>https://github.com/ahoefling/DnnConnector/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ahoefling/DnnConnector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Data Access Layer for working with DNN modules in DNN Current and DNN vNext</description>
+    <summary>Data Access Layer</summary>
+    <releaseNotes>For changelog go to: https://github.com/ahoefling/DnnConnector/blob/master/CHANGELOG.md</releaseNotes>
+    <tags>DNN, .NET, dotnet core, dotnet, netstandard</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- shared -->
+    <file src="..\src\DnnConnector.Abstractions\bin\Release\netstandard1.4\DnnConnector.Abstractions.*" target="lib\netstandard1.4" />
+    
+    <!-- net45 -->
+    <file src="..\src\DnnConnector.Core\bin\Release\netcoreapp1.0\DnnConnector.*" target="lib\netcoreapp1.0" />
+
+    <!-- netcoreapp 1.0 -->
+    <file src="..\src\DnnConnector.NETFramework\bin\Release\net45\DnnConnector.*" target="lib\net45" />
+  </files>
+</package>

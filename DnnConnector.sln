@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnConnector.NETFramework",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnConnector.Core", "src\DnnConnector.Core\DnnConnector.Core.csproj", "{9CD44EF5-F346-409C-93F6-442C0E2C5A22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CA0AAA91-18B1-43AC-8A09-751C28103055}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\DnnConnector.nuspec = .nuget\DnnConnector.nuspec
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\README.md = .nuget\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
