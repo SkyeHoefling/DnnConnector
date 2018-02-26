@@ -4,7 +4,7 @@ A new ORM for DNN that supports both DNN Current (NET Framework) and DNN vNext (
 ## Setup
 
 * Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/DnnConnector.svg?label=NuGet)](https://www.nuget.org/packages/DnnConnector)
-* Install into your PCL/.NET Standard and Client Projects
+* Install into your DNN Razor Pages Project
 
 ## Build
 
