@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;netcoreapp1.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DnnConnector.Abstractions\DnnConnector.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
